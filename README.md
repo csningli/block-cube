@@ -2,7 +2,7 @@
 
 The project of "block-cube" provides a simple collider system in javascript.
 
-## Preparation
+## Introduction
 All the components are inside "js/block-cube.js".
 
 ## Components
