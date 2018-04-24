@@ -1,4 +1,4 @@
-# block-cube
+# block-item
 
 The project of "block-cube" provides a simple collider system in javascript.
 
