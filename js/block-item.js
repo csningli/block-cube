@@ -109,6 +109,7 @@ var Block = (function(){
 var Item = (function(){
   var Item = function(){
     this.id = 0;
+    this.label = "0";
     this.index = -1;
     this.info = "Item:" + this.id;
     this.pos = [0, 0, 0];
@@ -123,7 +124,7 @@ var Item = (function(){
   };
 
   Item.prototype.collides = function(item){
-    return (item.id != this.id && item.shape & this.shape);
+    return (item.id != this.id && time.label != this.label && item.shape & this.shape);
   };
 
   return Item
